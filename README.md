@@ -11,7 +11,7 @@ countries exhibiting the highest darkspot score, computed from the
 number of species remaining to be described and geolocated at a
 cumulative area comparable to that of biodiversity hotspots (Ondo, I.,
 Dhanjal-Adams and K.L., Pironon, S., 2024).  
-See following link for more information:
+See the following links for more information:
 
 - **State of the World’s Plants and Fungi Symposium 2023: Day 2**  
   [2023SOTWPF](https://www.youtube.com/watch?v=Ya_9t2TxQFw "2023SOTWPF")
