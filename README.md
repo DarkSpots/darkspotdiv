@@ -7,12 +7,13 @@ v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org
 # What are the plant diversity darkspots ?
 
 Vascular plant diversity darkspots are represented by botanical
-countries exhibiting the highest number of species remaining to be
-described and geolocated at cumulative area comparable to that of
-biodiversity hotspots (Ondo, I., Dhanjal-Adams and K.L., Pironon, S.,
-2024). See following link for more information:
+countries exhibiting the highest darkspot score, computed from the
+number of species remaining to be described and geolocated at a
+cumulative area comparable to that of biodiversity hotspots (Ondo, I.,
+Dhanjal-Adams and K.L., Pironon, S., 2024).  
+See following link for more information:
 
-- **State of the World’s Plants and Fungi Symposium 2023: Day 2**
+- **State of the World’s Plants and Fungi Symposium 2023: Day 2**  
   [2023SOTWPF](https://www.youtube.com/watch?v=Ya_9t2TxQFw "2023SOTWPF")
 
 - **Lights on plant diversity ‘darkspots’**  
@@ -25,8 +26,8 @@ biodiversity hotspots (Ondo, I., Dhanjal-Adams and K.L., Pironon, S.,
 # darkspotdiv
 
 `darkspotdiv` is a package primarily developed to facilitate the
-reproduction of the time-to-event analyses used in the article [**“Plant
-diversity darkspots for global collection
+reproduction of the time-to-event analyses conducted in the article
+[**“Plant diversity darkspots for global collection
 priorities”**](https://doi.org/10.1111/nph.20024) by Ondo, I.,
 Dhanjal-Adams and K.L., Pironon, S. (2024), to model the number of
 vascular plant species remaining undescribed and/or nongeolocated per
@@ -47,19 +48,12 @@ source, so if you are on Windows, you need to install
 
 Install *darkspotdiv* with the following instructions. If the package
 `devtools` is not already installed run `install.packages("devtools")`
-in your console. Setting `R_REMOTES_NO_ERRORS_FROM_WARNINGS="false` will
-cause warning messages during calls to `devtools::install_github` to
-become errors. So beforehand, make sure to set this environmental
-variable to `true` via:
-
-``` r
-Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS="true")
-```
+in your console.
 
 Then, install and load the package:
 
 ``` r
-devtools::install_github("Darkspots/darkspotdiv")
+devtools::install_github("DarkSpots/darkspotdiv")
 library(darkspotdiv)
 ```
 
